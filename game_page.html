@@ -1,0 +1,39 @@
+<head>
+    <title>Jogo: Quiz de Matemática</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="game.css">
+
+    <script src="game_login.js"></script>
+<body id="bodyBackground1">
+    <h4 id="player1_name">Cuscuz</h4> <span id="player1_score"></span>
+    <h4 id="player2_name">Amora</h4> <span id="player2_score"></span>
+
+    <div class="container">
+        <center>
+            <h2 id="quizMat">📐📚✖️Quiz de Matemática➕➗🔢</h2>
+            <br><br>
+            <div id="perguntaResposta">
+            <h3 id="pergunta">Turno da Pergunta</h3>
+            <h3 id="resposta">Turno da Resposta</h3>
+        </div>
+
+            <div id="output" class="col-lg-6"></div>
+            <br><br>
+            <div id="caixaDeTexto">
+            <h4 id="numero1">Numero 1</h4>
+            <input type="text" class="form-control" id="texto1" placeholder="Numero1">
+            <br>
+            <h4 id="numero2">Numero 2</h4>
+            <input type="text" class="form-control" id="texto2" placeholder="Numero2">
+        </div>
+            <br>
+            <button id="enviar" onclick="send()" class="btn btn-sucess" style="width: 30%;">Enviar</button>
+        </center>
+    </div>
+    <script src="game_page.js"
+</body>

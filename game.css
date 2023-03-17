@@ -1,0 +1,118 @@
+#bodyBackground{
+    background-image: url('matematica.jpg');
+}
+#jogo
+{
+    background-color:white;
+    width: 30%;
+    color: YellowGreen;
+}
+#jogador1{
+    background-color: white;
+    width: 35%;
+    height: 18%;
+}
+#jogador2{
+    background-color: white;
+    width: 35%;
+    height: 18%;
+}
+#botao1{
+    width: 20%;
+    height: 7%;
+    background-color: YellowGreen;
+    color: rgb(70, 105, 0) ;
+}
+#jogadorUm{
+    color: YellowGreen;
+}
+#jogadorDois{
+    color: YellowGreen;
+}
+#miniNome1{
+    color:YellowGreen;
+}
+#miniNome2{
+    color: #9acd32;
+}
+#caixaTexto1{
+    background-color: rgb(204, 226, 159);
+}
+#caixaTexto2{
+    background-color: rgb(204, 226, 159);
+}
+#bodyBackground1
+{
+    background-image: url('matematica.jpg');
+}
+#output
+{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #9acd32;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+#player1_name
+{
+    background: white;
+    width: 70px;
+    height: 20px;
+    color: YellowGreen;
+}
+#player2_name
+{
+    background: white;
+    width: 70px;
+    height: 20px;
+    color: YellowGreen;
+}
+#quizMat
+{
+    background: white;
+    width: 600px;
+    height: 40px;
+    color: YellowGreen;
+}
+#perguntaResposta
+{
+    background-color: white;
+    width: 400px;
+    color:#9acd32;
+}
+
+#texto1
+{
+    width: 300px;
+    background-color: rgb(204, 226, 159);
+}
+#texto2
+{
+    width: 300px;
+    background-color: rgb(204, 226, 159);
+}
+#numero1
+{
+    background: white;
+    width: 300px;
+    height: 20px;
+}
+#numero2
+{
+    background: white;
+    width: 300px;
+    height: 20px;
+}
+#CaixaDeTexto
+{
+    background: white;
+    height: 200px;
+    width: 400px;
+    color: #9acd32;
+}
+#enviar
+{
+    background: YellowGreen;
+    color: rgb(70, 105, 0) ;
+}
